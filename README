@@ -1,0 +1,9 @@
+This script is meant to make the process of changing Islandora's mysql stack passwords easier.
+will likely need to set root@localhost, fedoraAdmin@%, fedoraAdmin@localhost, drupal@localhost
+
+sql_user_pass.input contains sets of mysql users(with hosts) and passwords
+drupal_fedora_users.input contains a mapping of the fedora and drupal users to their mysql counterparts
+These files are simply examples/test and will need to be changed to match your users/passwords
+mysql users are specified thus: 'fedoraAdmin'@'localhost'
+
+may have to call using sudo -E sh ./mutate_islandora_stack_passwords.sh

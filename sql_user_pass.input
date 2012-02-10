@@ -1,0 +1,12 @@
+'drupal'@'localhost'
+drupal_password_replacement
+'fedoraAdmin'@'localhost'
+fedoraAdmin_password_replacement
+'fedoraAdmin'@'%'
+fedoraAdmin_password_replacement
+'root'@'localhost'
+root_password_replacement
+'root'@'127.0.0.1'
+root_password_replacement
+'root'@'Islandora'
+root_password_replacement

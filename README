@@ -9,3 +9,5 @@ mysql users are specified thus: 'fedoraAdmin'@'localhost'
 may have to call using sudo -E sh ./mutate_islandora_stack_passwords.sh
 
 @todo: make the script detect what db users fedora/drupal are using if they are on the same machine
+
+@TODO: make the script change the drupal auth filter
